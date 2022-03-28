@@ -383,7 +383,7 @@ if __name__ == '__main__':
     model = RetinaNet()
     model.build()
     model.load()
-    path = '../data/images/b001a7ce-5cbc6e0b.jpg'
+    path = '../data/images/9b975a41-1b150816.jpg'
     img = cv2.imread(path)
     result = model.predict(img)
     cv2.imshow('result', result)

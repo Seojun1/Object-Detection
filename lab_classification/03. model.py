@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-model = tf.keras.applications.MobileNet ( # 객체 검출할땐 : MobileNet-SSD
+model = tf.keras.applications.MobileNet ( # 객체 검출할땐 : MobileNet-SSD / MoblieNet = 인공신경망
     input_shape=(224, 224, 3),
     include_top=False,  # MobileNet의 마지막 단계 통과안함.
     weights='imagenet' # 가중치 / imagenet = 1400만개가 넘는 이미지에 대한 Dataset
