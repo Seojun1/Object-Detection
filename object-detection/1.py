@@ -1,7 +1,7 @@
-import retinanet
+import yolov3
 import cv2
 
-model = retinanet.RetinaNet()
+model = yolov3.YOLO_V3()
 model.build()
 model.load()
 
