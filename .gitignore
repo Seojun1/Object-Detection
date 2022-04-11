@@ -3,6 +3,6 @@ data
 data
 models
 classification_data
-quiz
+#quiz
 logs
-object-detection
+#object-detection
